@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="nav">
+        <div class="logo">
+            <img src="logo.jpg" alt="Logo">
+            <h2>EVERYWEAR</h2>
+        </div>
+        <nav>
+            <ul>
+             <li><a href="index.html">Home</a></li>
+             <li><a href="about.html">About</a></li>
+             <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="signin-btn">Sign In</button>
+        <button class="cart-btn">Cart <span class="count">0</span></button>
+    </div>
+
+    <div class="product-container">
+        <div class="product-card">
+            <div class="product-image">
+             <a href="tshirt3.html">
+              <div class="image">
+               <img src="tshirt3.jpg" alt="shirt1">
+              </a>
+            </div>
+        </div>
+    
+        <div class="product-details">
+            <div>
+                <h2>Nike Dry-FIT Winner Stays T-Shirt</h2>
+                <p class="price">₱ 240</p>
+                <p class="description">Built for the grind. A high-performance, comfortable t-shirt featuring sweat-wicking technology. Perfect for everyday training or staying cool on the go.</p>
+                <p class="availability">availability: In Stock</p>
+                <div class="actions">
+                    <label for="size">Size:</label>
+                    <select id="size">
+                        <option>Small</option>
+                        <option>Medium</option>
+                        <option>Large</option>
+                        <option>XL</option>
+                    </select>
+
+                    <label for="qty">Qty</label>
+                    <select id="qty">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+            </div>
+
+            <button class="add-to-cart">+ ADD TO CART</button>
+        </div>
+    </div>
+
+</body>
+</html>
